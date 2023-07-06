@@ -3,6 +3,9 @@ body{
     height: 100vh;
     margin: 0;
     background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pu2344531-image-kwvy7nwm.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=df9d83805bc89e963041e7c2e1dd09f1");
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
     color: #111111;
     font-family: Rowdies;
     font-size: 16px;
