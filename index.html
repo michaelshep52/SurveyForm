@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <meta charset="UTF-8">
+    <title>Code Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Code Survey Form</h1>
+    <p id="description">This is a survey about coding preferences.</p>
+    <form id="survey-form">
+      <label id="name-label"for="name">Name: <input id="name" name="name" placeholder="Enter Your Name" type="text" required /></label>
+      <label id="email-label"for="email">Email: <input id="email" name="email" placeholder="Enter Your Email"type="email" required /></label>
+       <label id="number-label" for="age">Age(optional): <input id="number" name="age" placeholder="18" type="number" min="18" max="100"/></label>
+       <label for="dropdown">Current role?:
+          <select id="dropdown" name="dropdown">
+            <option value="">(select role)</option>
+            <option value="1">Student</option>
+            <option value="2">Full Time Job</option>
+            <option value="3">Part Time Job</option>
+            <option value="4">Other</option>
+            <option value="4">Prefer not to say</option>
+          </select>
+        </label>
+        <h4 class="subtitle">What type of developer are you?</h4>
+         <label for="front-end"><input id="front-end" type="radio" value="Front-end" name="developer-type" class="inline" />Front-end Developer</label>
+        <label for="back-end"><input id="back-end" type="radio" value="Back-end" name="developer-type" class="inline" />Back-end Developer</label>
+        <label 
+        <label for="full-stack"><input id="full-stack" type="radio" value="Full-Stack" name="developer-type" class="inline" />Full-Stack Developer</label>
+        <h4 class="subtitle">Preferred coding language?</h4>
+        <label for="java-script">
+          <input id="java-script" type="checkbox" value="JavaScript" name="java-script" class="inline" />JavaScript</label>
+        <label for="pythont">
+          <input id="python" type="checkbox" value="Python" name="python" class="inline" />Python</label>
+        <label for="type-script">
+          <input id="type-script" type="checkbox" value="TypeScript" name="type-script" class="inline" />TypeScript</label>
+        <label for="c#">
+          <input id="c#" type="checkbox" value="C#" name="c#" class="inline" />C#</label>
+        <label for="php">
+          <input id="php" type="checkbox" value="PHP" name="php" class="inline" />PHP</label>
+        <label for="c">
+          <input id="c" type="checkbox" value="C" name="c" class="inline" />C</label>
+        <label for="c++">
+          <input id="c++" type="checkbox" value="C++" name="c++"" class="inline" />C++</label>
+      <label for="comments" class="subtitle">Additional comments? <br>
+          <textarea id="comments" name="comments" rows="4" cols="30" placeholder="My Favorite thing about coding..."></textarea>
+        </label>    
+         <input id="submit" type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
